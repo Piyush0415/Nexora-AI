@@ -75,8 +75,8 @@ The frontend expects `POST /predict` to return JSON like:
 
 <div align="center">
 
-<a href="mailto:you@email.com"><img src="https://cdn.simpleicons.org/gmail/ff7675" width="18"/>&nbsp; <b>Mail</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://YOUR_PORTFOLIO.com"><img src="https://cdn.simpleicons.org/googlechrome/ffeaa7" width="18"/>&nbsp; <b>Portfolio</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:piyushagarwal146@gmail.com"><img src="https://cdn.simpleicons.org/gmail/ff7675" width="18"/>&nbsp; <b>Mail</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://dashefy.vercel.app/"><img src="https://cdn.simpleicons.org/googlechrome/ffeaa7" width="18"/>&nbsp; <b>Portfolio</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/piyush-agarwal-1a93003a1"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="18"/>&nbsp; <b>LinkedIn</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://hub.docker.com/u/YOUR_USERNAME"><img src="https://cdn.simpleicons.org/docker/74b9ff" width="18"/>&nbsp; <b>Docker</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/YOUR_USERNAME"><img src="https://cdn.simpleicons.org/git/fab1a0" width="18"/>&nbsp; <b>Git</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
