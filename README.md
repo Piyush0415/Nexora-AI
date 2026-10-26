@@ -18,8 +18,8 @@
 <br><br>
 </div>
 
-## Project layout
-
+## Project Layout
+ 
 ```text
 churniq_website/
 ├── main.py
@@ -51,6 +51,10 @@ churniq_website/
 6. Open http://127.0.0.1:8000
 
 The site and API are served from the same FastAPI app, so the frontend can call `/predict` without separate CORS setup. API docs are at http://127.0.0.1:8000/docs.
+
+<!-- <h2>
+  <img src="https://cdn.simpleicons.org/docker/74b9ff" width="22" align="absmiddle"/>&nbsp; Docker
+</h2> -->
 
 ## Important model checks
 
