@@ -30,7 +30,8 @@ churniq_website/
     ├── styles.css
     └── app.js
 ```
-
+## Web Page 
+![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/Nexora%20AI%20Page.jpeg)
 ## Run locally
 
 1. Put your existing trained `model.pkl` in the same folder as `main.py`.
