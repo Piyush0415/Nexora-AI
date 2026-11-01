@@ -60,33 +60,6 @@ Nexora AI aims to transform raw customer data into useful business intelligence.
 
 ---
 
-# ⌁ The Intelligence Pipeline
-
-<div align="center">
-
-```mermaid
-flowchart TD
-    A["01 · CUSTOMER DATA"] --> B["02 · DATA CLEANING"]
-    B --> C["03 · EXPLORATORY ANALYSIS"]
-    C --> D["04 · FEATURE ENGINEERING"]
-    D --> E["05 · MACHINE LEARNING"]
-    E --> F["06 · CHURN RISK PREDICTION"]
-    F --> G["07 · RETENTION INSIGHTS"]
-
-    style A fill:#17172B,stroke:#6366F1,color:#FFFFFF
-    style B fill:#17172B,stroke:#6366F1,color:#FFFFFF
-    style C fill:#17172B,stroke:#8B5CF6,color:#FFFFFF
-    style D fill:#17172B,stroke:#8B5CF6,color:#FFFFFF
-    style E fill:#312E81,stroke:#A78BFA,color:#FFFFFF
-    style F fill:#164E63,stroke:#22D3EE,color:#FFFFFF
-    style G fill:#064E3B,stroke:#34D399,color:#FFFFFF
-```
-
-</div>
-
-<sub>Conceptual workflow — adapt it to the pipeline implemented in your code.</sub>
-
----
 
 # ⚡ The Technology Universe
 
@@ -107,7 +80,7 @@ flowchart TD
 
 ---
 
-## ◈ The Metrics That Matter
+# ◈ The Metrics That Matter
 
 A useful churn model needs more than accuracy. It needs to identify at-risk customers while helping businesses prioritize their retention efforts.
 
@@ -124,31 +97,25 @@ A useful churn model needs more than accuracy. It needs to identify at-risk cust
 
 **Current model performance:** To be added after evaluation.
 
-*No performance results are claimed until the model has been trained and tested.*
+---
+# ✧ Web Page 
+![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/nexora_ai_page.jpeg)
 
 ---
 
-## ◈ Repository Architecture
-
+# ⭐ Project Layout
+ 
 ```text
-NEXORA-AI/
-│
-├── data/                  # Dataset documentation
-├── notebooks/             # EDA and experiments
-├── src/                   # Model and application code
-├── models/                # Saved model artifacts
-├── images/                # Project visuals
-│
-├── requirements.txt       # Dependencies
-├── .gitignore
-└── README.md              # Project documentation
+churniq_website/
+├── main.py
+├── model.pkl        # Add your trained model file here
+├── requirements.txt
+└── static/
+    ├── index.html
+    ├── styles.css
+    └── app.js
 ```
-
-<sub>Suggested layout; update it to match your repository.</sub>
-
----
-
-## 🚀 Launch Nexora AI Locally
+# 🚀 Launch Nexora AI Locally
 
 **01 — Clone the repository**
 
@@ -189,7 +156,7 @@ Open the relevant notebook and follow the implemented analysis workflow.
 
 ---
 
-## ✧ Future Vision
+# ✧ Future Vision
 
 <div align="center">
 
@@ -207,7 +174,7 @@ Open the relevant notebook and follow the implemented analysis workflow.
 
 ---
 
-## ⌘ Beyond Prediction
+# ⌘ Beyond Prediction
 
 <div align="center">
 
@@ -227,7 +194,7 @@ Nexora AI explores how machine learning can help businesses move from looking at
 
 ---
 
-## 🤝 Let's Connect
+# 🤝 Let's Connect
 
 Building Nexora AI is part of my journey into machine learning, predictive analytics, and solving real-world business problems.
 
@@ -235,76 +202,10 @@ Building Nexora AI is part of my journey into machine learning, predictive analy
 
 If you find this project interesting, consider giving it a ⭐ on GitHub.
 
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:06B6D4,45:7C3AED,100:09090F&section=footer" width="100%" alt="Nexora AI gradient footer"/>
 
-### N E X O R A  A I
 
-*Predict smarter. Retain better.*
 
-<sub>Built with curiosity, machine learning, and a vision for smarter customer retention.</sub>
-
-</div>
-
----
-
-<sub>Disclaimer: Churn predictions are estimates, not guarantees. Use validated models, appropriate data permissions, and business context when making customer-level decisions.</sub>
-
-## Project Layout
- 
-```text
-churniq_website/
-├── main.py
-├── model.pkl        # Add your trained model file here
-├── requirements.txt
-└── static/
-    ├── index.html
-    ├── styles.css
-    └── app.js
-```
-## Web Page 
-![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/nexora_ai_page.jpeg)
-## Run locally
-
-1. Put your existing trained `model.pkl` in the same folder as `main.py`.
-2. Open a terminal in this folder.
-3. Create and activate a virtual environment (recommended).
-4. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Start the server:
-
-   ```bash
-   uvicorn main:app --reload
-   ```
-
-6. Open http://127.0.0.1:8000
-
-The site and API are served from the same FastAPI app, so the frontend can call `/predict` without separate CORS setup. API docs are at http://127.0.0.1:8000/docs.
-
-<!-- <h2>
-  <img src="https://cdn.simpleicons.org/docker/74b9ff" width="22" align="absmiddle"/>&nbsp; Docker
-</h2> -->
-
-## Important model checks
-
-- This UI assumes the model output `1` means churn and `0` means no churn. Confirm this matches the label encoding used when you trained your model.
-- The website intentionally shows the predicted class only. Your API returns no probability, so the UI does not invent a risk percentage.
-- The input values must match the categories and feature preprocessing expected by the trained model. In particular, your code maps tenure months into ranges such as `1-12`, `13-24`, etc.
-- `paymentmethod`, `internetservice`, `onlinesecurity`, and `techsupport` choices exactly match your current API schema. If the model was trained with different categories (for example, actual payment-method names), update the schema and form options to match training.
-- Only run `joblib.load` on a trusted model file.
-
-## API response
-
-The frontend expects `POST /predict` to return JSON like:
-
-```json
-{"prediction": 1}
-```
 
 </div>
 <div align="center">
