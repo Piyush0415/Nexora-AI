@@ -84,7 +84,9 @@ Nexora AI aims to transform raw customer data into useful business intelligence.
 
 A useful churn model needs more than accuracy. It needs to identify at-risk customers while helping businesses prioritize their retention efforts.
 
-<div align="center">
+
+![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/model_performance.png)
+<div align="left">
 
 | Metric | What it tells us |
 |:---:|:---|
@@ -94,8 +96,6 @@ A useful churn model needs more than accuracy. It needs to identify at-risk cust
 | **ROC-AUC** | How well can the model distinguish churn from non-churn? |
 
 </div>
-
-**Current model performance:** To be added after evaluation.
 
 ---
 
