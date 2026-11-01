@@ -98,10 +98,6 @@ A useful churn model needs more than accuracy. It needs to identify at-risk cust
 **Current model performance:** To be added after evaluation.
 
 ---
-# ✧ Web Page 
-![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/nexora_ai_page.jpeg)
-
----
 
 # ⭐ Project Layout
  
@@ -151,7 +147,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-
+![image Alt](https://github.com/Piyush0415/Nexora-AI/blob/main/nexora_ai_page.jpeg)
 Open the relevant notebook and follow the implemented analysis workflow.
 
 ---
